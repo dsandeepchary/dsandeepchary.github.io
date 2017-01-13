@@ -1,0 +1,86 @@
+body{
+  margin-top:70px;
+  background-image:url("https://goo.gl/T3gkdn");
+}
+h1{
+  font-family:'Lobster', cursive,Monospace;
+  color:black;
+}
+h2{
+  color:black;
+  font-family:Montserrat;
+}
+h3{
+  font-family:Lato;
+  color:black;
+  font-size:25px;
+}
+hr.style15 {
+	border-top: 4px double #8c8b8b;
+	text-align: center;
+}
+hr.style15:after {
+	content: '\002665';
+	display: inline-block;
+	position: relative;
+	top: -15px;
+	padding: 0 10px;
+	background: #f0f0f0;
+	color: #8c8b8b;
+	font-size: 18px;
+}
+
+.dp{
+  display:block;
+  margin:auto;
+  border-radius:50%;
+  width:180px;
+}
+.dp:hover{
+  border-radius:47%;
+}
+.port{
+  background-color:rgba(210,210,220,0.9);
+}
+.head3{
+  font-family:Montserrat;
+  color:black;
+}
+.works{
+  margin-top:10px;
+  border-radius:20%;
+  height:320px;
+  width:350px;
+}
+.works:hover{
+  border-radius:10%;
+  height:340px;
+  width:370px;
+}
+.conta{
+  background-color:rgba(200,200,200,0.6);
+}
+.links{
+  width:255px;
+  height:255px;
+  border-radius:50%;
+  border:3px dashed white;
+}
+.links:hover{
+  border-radius:45%;
+}
+#about{
+    color:cyan;
+  font-family:'Bungee Inline', cursive;
+}
+#portfolio{
+  color:cyan;
+  font-family:'Bungee Inline', cursive;
+}
+#contact{
+  color:cyan;
+  font-family:'Bungee Inline', cursive;
+}
+#footer{
+  color:white;
+}
