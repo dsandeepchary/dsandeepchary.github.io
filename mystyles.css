@@ -38,11 +38,13 @@ hr.style15:after {
 .dp{
   display:block;
   margin:auto;
-  border-radius:20%;
+  border-radius:60% 30% 60% 30%;
   width:200px;
+ cursor:pointer;
 }
 .dp:hover{
-  border-radius:15%;
+
+  border-radius:30% 60% 30% 60%;
 }
 .port{
   background-color:#333333;
