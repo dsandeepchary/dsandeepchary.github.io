@@ -108,6 +108,12 @@
                     <div id="label">85%</div>
                 </div>
             </div>
+            <h3>Git</h3>
+            <div id="myProgress">
+                <div id="myBar5">
+                    <div id="label">75%</div>
+                </div>
+            </div> 
         </div>
         <h1 id="contact" class="text-center">Contact</h1>
         <div class="container contact">
@@ -132,7 +138,19 @@
                 <a href="http://www.twitter.com/imschary" target="_blank" class="fa fa-twitter"></a>
                 <a href="https://plus.google.com/u/0/+sandeepcharyd" target="_blank" class="fa fa-google"></a>
                 <a href="http://www.instagram.com/thesandeepchary" class="fa fa-instagram" target="_blank"></a>
+                <a href="javascript:void(0)"  id='like' class="fa fa-thumbs-up"></a><p id='likes'></p>
             </div>
             <p id="footer" align="center">© Written and Coded by <a target="_blank" href="http://codepen.io/dsandeepchary">Sandeep Chary</a> with lots of <span style="color:#fff;">❤</span>.</p>
         </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript">
+  $(function(){
+  var i=0;  
+  $("#like").on("click",function(){
+
+   i=i+1;
+   $("#likes").html(i);
+  });
+  });
+</script>
 </body>
