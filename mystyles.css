@@ -17,7 +17,11 @@ hr.style15:after {
     color: #7f8c8d;
     font-size: 18px;
 }
-
+@media (max-width: 767px) { 
+    .navbar{
+        display:none;
+    }
+}
 nav a {
     color: #888888;
     font-weight: bold;
