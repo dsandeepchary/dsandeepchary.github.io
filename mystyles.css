@@ -110,10 +110,6 @@ nav a {
     text-decoration: none;
 }
 
-.links {
-    margin-left: 33%;
-}
-
 .works {
     text-align: center;
     background-color: #333;
@@ -244,11 +240,6 @@ footer {
     margin: 5% 0 0 0;
     background-color: #7f8c8d;
 }
-
-.linksd {
-    margin-left: 33%;
-}
-
 footer a {
     color: #fff;
 }
