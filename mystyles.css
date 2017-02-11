@@ -28,9 +28,10 @@ nav a {
 }
 
 .head {
-    background: url(https://goo.gl/IYS0q7);
     margin-top: 35px;
+    background: url(about-bg.jpg);
     height: 420px;
+
 }
 
 #welMsg {
