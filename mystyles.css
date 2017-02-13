@@ -274,14 +274,24 @@ background-color: #fff;
   color: #555555;
   -webkit-animation: 1s blink step-end infinite;
   animation: 1s blink step-end infinite;
+  -moz-animation:1s blink step-end infinite;
 }
-@keyframes "blink" {
+@keyframes blink {
   from, to {
     color: transparent;
   }
   50% {
     color: black;
   }
+}
+@-moz-keyframes{
+   from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+} 
 }
 @-webkit-keyframes "blink" {
   from, to {
