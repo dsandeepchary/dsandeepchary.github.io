@@ -300,4 +300,9 @@ background-color: #fff;
     color: black;
   }
 }
+.btn{
+    margin: 1% 45%;
+    color:#000;
+    background-color: #333333;
+}
 
