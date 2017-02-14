@@ -124,12 +124,12 @@
         <div class="container contact">
             <form class="form-group" id="cont-form" name="cont-form" method='POST' action="https://formspree.io/sandeepchary777@gmail.com">
                 <label for="name">Name:</label>
-                <input id="name" type="text" placeholder="Enter Full Name" name="name" class="form-control">
+                <input id="name" type="text" placeholder="Enter Full Name" name="name" required  class="form-control">
                 <label for="email">Email:</label>
-                <input type="text" name="mailid" class="form-control" id='email' placeholder="Enter mail id">
+                <input type="text" name="mailid" required class="form-control" id='email' placeholder="Enter mail id">
                 <label for="msg">Message:</label>
-                <textarea type="text" name="msg" id='msg' cols='50' rows='4' class="form-control" placeholder="Enter your message here!"></textarea>
-                <a class="fa fa-paper-plane" href='mailto:sandeepchary777@gmail.com'>Send</a>
+                <textarea type="text" name="msg" id='msg' required cols='50' rows='4' class="form-control" placeholder="Enter your message here!"></textarea>
+                <input type='submit' value="Send Message"     name='submit'>
             </form>
         </div>
         <footer>
