@@ -253,6 +253,7 @@ footer a {
   font-weight: bold;
   text-decoration: underline;
   font-size: 22px;
+
 }
 #newsFeed{
 font-family: 'Bahiana', cursive;
@@ -260,9 +261,10 @@ font-size: 20px;
 font-weight: bold;
 color: #555555;
 background-color: #fff;
-
+  width: 29%;
 }
 #newsFeed h3{
+    margin-left: 1%;
   font-size: 30px;
   color: #000;
   text-decoration: underline;
