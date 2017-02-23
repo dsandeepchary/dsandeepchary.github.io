@@ -69,7 +69,9 @@ nav a {
     font-family: "Brush Script MT", cursive;
 }
 
-
+#pph-hireme{
+    float:right;
+}
 /* On mouse-over, add a deeper shadow */
 
 .card:hover {
