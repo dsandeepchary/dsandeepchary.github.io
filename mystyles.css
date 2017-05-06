@@ -22,6 +22,11 @@ hr.style15:after {
         display:none;
     }
 }
+
+body{
+    overflow-x: hidden;
+}
+
 nav a {
     color: #888888;
     font-weight: bold;
@@ -93,7 +98,7 @@ nav a {
 
 #top p {
     font-family: 'Bahiana', cursive;
-    margin-top: 320px;
+    margin-top: 210px;
 }
 
 .fa {
@@ -117,6 +122,10 @@ nav a {
     text-align: center;
     background-color: #333;
     margin: 40px 40px;
+}
+
+b{
+    font-size: 19px;
 }
 
 hr{
@@ -169,7 +178,7 @@ hr{
 
 .skills {
    background-color: #fff;
-   margin:0 25%; 
+   margin:-4% 25% 0 25%; 
 }
 
 
