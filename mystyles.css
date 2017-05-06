@@ -309,3 +309,18 @@ background-color: #fff;
     background-color: #333333;
 }
 
+/*media
+(
+min-width
+:
+768px)
+{
+ #top{
+        width:100px;
+        }
+#top p{
+    margin-top: 0px;
+    font-size:5px;
+    font-family: sans-serif;
+    }
+}*/
